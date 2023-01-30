@@ -7,29 +7,32 @@
 </head>
 
 <body>
-
+<form>
   <h2>Feedback Form</h2>
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
-  <br><br>
-  <label for="portfolio">Portfolio:</label>
-  <input type="url" id="portfolio" name="portfolio" required>
-  <br><br>
-  <label for="favColor">Favourite Color:</label>
-  <select id="favColor" name="favColor">
-    <option value="red">Red</option>
-    <option value="blue">Blue</option>
-    <option value="green">Green</option>
-  </select>
-  <br><br>
-  <label for="likeness">Likeness on a scale of 1 to 100:</label>
-  <input type="range" id="likeness" name="likeness" min="1" max="100" required>
-  <br><br>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+  </div>
+  <div>
+    <label for="portfolio">Portfolio:</label>
+    <input type="url" id="portfolio" name="portfolio" required>
+  </div>
+  <div>
+    <label for="favColor">Favourite Color:</label>
+    <select id="favColor" name="favColor">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="yellow">Yellow</option>
+    </select>
+  </div>
+  <div>
+    <label for="likeness">Likeness:</label>
+    <input type="range" id="likeness" name="likeness" min="1" max="100">
+  </div>
   <input type="submit" value="Submit">
-</form>
+</for
 
-    <script type="text/javascript" src="./script.js">
-</script>
 
 </body>
 
